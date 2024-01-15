@@ -53,11 +53,11 @@ for (let i = 0; i < team.length; i++) {
     console.log(`------------------`);
 
     items += `
-    <div class="col">
-        <img src="img/img/${teamMember.img}" alt="member photo">
+    <div class="col col-4 p-3">
+        <img class="img-fluid" src="img/img/${teamMember.img}" alt="member photo">
         <h3>${teamMember.name}</h3>
         <p>${teamMember.role}</p>
-
+    
     </div> 
     `
 
