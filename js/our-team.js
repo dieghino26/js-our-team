@@ -6,6 +6,8 @@
 // Scott Estrada |	Developer            |	scott-estrada-developer.jpg
 // Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg
 
+//prendo gli elementi da html
+const row = document.getElementById("row")
 
 //creo l'array di oggetti
 const team = [
@@ -41,13 +43,24 @@ const team = [
     }
 ];
 //stampo in console nome, ruolo e img di ognuno
-
+let items = "";
 for (let i = 0; i < team.length; i++) {
     const teamMember = team[i];
 
-    console.log(`Member name: ${teamMember.name}`)
-    console.log(`Member role: ${teamMember.role}`)
-    console.log(`Member img: ${teamMember.img}`)
-    console.log(`------------------`)
+    console.log(`Member name: ${teamMember.name}`);
+    console.log(`Member role: ${teamMember.role}`);
+    console.log(`Member img: ${teamMember.img}`);
+    console.log(`------------------`);
+
+    items += `
+    <div class="col">
+        <img src="img/img/${teamMember.img}" alt="member photo">
+        <h3>${teamMember.name}</h3>
+        <p>${teamMember.role}</p>
+
+    </div> 
+    `
+
 };
 
+row.innerHTML = items;
