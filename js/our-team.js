@@ -7,30 +7,37 @@
 // Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg
 
 
-//creao l'array di oggetti
+//creo l'array di oggetti
 const team = [
     {
         name: "Wayne Barnett",
-        role: "Founder & CEO"
+        role: "Founder & CEO",
+        img: "wayne-barnett-founder-ceo.jpg"
     },
     {
         name: "Angela Caroll",
-        role: "Chief Editor"
+        role: "Chief Editor",
+        img: "angela-caroll-chief-editor.jpg"
     },
     {
         name: "Walter Gordon",
-        role: "Office Manager"
+        role: "Office Manager",
+        img: "walter-gordon-office-manager.jpg"
     },
     {
         name: "Angela Lopez",
-        role: "Social Media Manager"
+        role: "Social Media Manager",
+        img: "angela-lopez-social-media-manager.jpg"
     },
     {
         name: "Scott Estrada",
-        role: "Developer"
+        role: "Developer",
+        img: "scott-estrada-developer.jpg"
     },
     {
         name: "Barbara Ramos",
-        role: "Graphic Designer"
+        role: "Graphic Designer",
+        img: "barbara-ramos-graphic-designer.jpg"
     }
 ]
+//stampo in console nome e ruolo di ognuno di loro
