@@ -39,5 +39,15 @@ const team = [
         role: "Graphic Designer",
         img: "barbara-ramos-graphic-designer.jpg"
     }
-]
-//stampo in console nome e ruolo di ognuno di loro
+];
+//stampo in console nome, ruolo e img di ognuno
+
+for (let i = 0; i < team.length; i++) {
+    const teamMember = team[i];
+
+    console.log(`Member name: ${teamMember.name}`)
+    console.log(`Member role: ${teamMember.role}`)
+    console.log(`Member img: ${teamMember.img}`)
+    console.log(`------------------`)
+};
+
