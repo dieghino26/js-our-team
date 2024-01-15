@@ -7,3 +7,30 @@
 // Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg
 
 
+//creao l'array di oggetti
+const team = [
+    {
+        name: "Wayne Barnett",
+        role: "Founder & CEO"
+    },
+    {
+        name: "Angela Caroll",
+        role: "Chief Editor"
+    },
+    {
+        name: "Walter Gordon",
+        role: "Office Manager"
+    },
+    {
+        name: "Angela Lopez",
+        role: "Social Media Manager"
+    },
+    {
+        name: "Scott Estrada",
+        role: "Developer"
+    },
+    {
+        name: "Barbara Ramos",
+        role: "Graphic Designer"
+    }
+]
